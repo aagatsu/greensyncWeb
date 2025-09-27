@@ -1,0 +1,100 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #5c7d3c;
+}
+
+.wrapper {
+  background-color: #5c7d3c;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  padding: 1.5rem;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #d9b949;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.circle {
+  background-color: #1f2b1c;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.plantaIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.descricao {
+  background-color: #1f2b1c;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.tituloDesc{
+  margin-bottom: 0.75rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.info p {
+  background-color: #d9b949;
+  color: #1f2b1c;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: #1f2b1c;
+  color: #d9b949;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.plus {
+  font-size: 1.8rem;
+  color: #d9b949;
+}
